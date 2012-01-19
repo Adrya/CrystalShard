@@ -126,6 +126,15 @@ int Master::Run()
     sLog->outString("%s (worldserver-daemon)", _FULLVERSION);
     sLog->outString("<Ctrl-C> to stop.\n");
 
+	sLog->outString("  _____                _        _  _____ _                   _ ");
+	sLog->outString(" / ____|              | |      | |/ ____| |                 | |");
+	sLog->outString("| |     _ __ _   _ ___| |_ __ _| | (___ | |__   __ _ _ __ __| |");
+	sLog->outString("| |    | '__| | | / __| __/ _` | |\___ \| '_ \ / _` | '__/ _` |");
+	sLog->outString("| |____| |  | |_| \__ \ || (_| | |____) | | | | (_| | | | (_| |");
+	sLog->outString(" \_____|_|   \__, |___/\__\__,_|_|_____/|_| |_|\__,_|_|  \__,_|");
+	sLog->outString("              __/ |                                            ");
+    sLog->outString("             |___/                                             ");
+
 #ifdef USE_SFMT_FOR_RNG
     sLog->outString("\n");
     sLog->outString("SFMT has been enabled as the random number generator, if worldserver");
