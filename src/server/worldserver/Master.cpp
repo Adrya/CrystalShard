@@ -133,7 +133,7 @@ int Master::Run()
 	sLog->outString("| |____| |  | |_| \__ \ || (_| | |____) | | | | (_| | | | (_| |");
 	sLog->outString(" \_____|_|   \__, |___/\__\__,_|_|_____/|_| |_|\__,_|_|  \__,_|");
 	sLog->outString("              __/ |                                            ");
-    sLog->outString("             |___/                                             ");
+	sLog->outString("             |___/                                             ");
 
 #ifdef USE_SFMT_FOR_RNG
     sLog->outString("\n");

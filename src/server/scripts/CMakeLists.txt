@@ -27,7 +27,6 @@ include(Spells/CMakeLists.txt)
 
 include(Commands/CMakeLists.txt)
 
-include(Examples/CMakeLists.txt)
 
 set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
@@ -38,7 +37,7 @@ set(scripts_STAT_SRCS
 )
 
 if(SCRIPTS)
-  include(Custom/CMakeLists.txt)
+  include(CrystalShard/CMakeLists.txt)
   include(World/CMakeLists.txt)
   include(OutdoorPvP/CMakeLists.txt)
   include(EasternKingdoms/CMakeLists.txt)
